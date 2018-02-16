@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: qYo2Xc2M0jjkitFiYw1c39BBKFlRrBu7mfpTiUB2lRQwgBsiLXOhZigTShItVV4QTAewghGGA6CfWXleSaFedMA4J+uqctYfoBpsvgbd5vlz7rpbUa/A2gWWYIL/0uxXvFCGHFfc6caD5uoygIXq8b7UOf0dtrGhAHE171CkpHe6tCAXAjkEBJ04flWKb3eLNLjW2/6mbOW2GmEXr2qPFnEn8IF3BpNxJ6hieuK/OJSaQ2SQA0cZjYBYAmvuYSlKps4ijMFeTpfZ/1DXg1FzRi0OkmPPFLWulSk5phoyuVikHhlxS5ptE+Sh8BIk1RP+nQDYgJVQ36lZaBKaqyEHuyiiDGXglnvw+7E04m+pXEZtDeyqSZVgG79UA08ZTFz3mdxXxmpHeA1Ap800+dsOeGufjHLI9oD8TglP+AkSg+AlAHsV9T5NXi2xAZbhxuuK2OYAGoPR2S5Rwuka6JLbZ0+FB7zc+a9+lvh+wqiGW1+kt+3xkFfdgFeGHnw2n0D3AKj1QZuxNhorfB0DorL2Nzqxqy9KLfh2t4t/2SBYTCvyJg91N5QjGYSRFbKOQq8cwh5MCs6oyJsUBQUpFLlg52cw9YLkOzhG9G4VpF+X453rd7XVDn/rXckiz6F3w2DGw62pxGQcZQ0Iptu9SS8RFZ5OOhay7fnFBfWLjJKWnz0=
+  app: aqueous-fortress-30490
+  on:
+    repo: benjaminmodayil/blog-app-mongoose-testing
+services:
+- mongodb
